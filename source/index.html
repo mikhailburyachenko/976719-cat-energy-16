@@ -5,8 +5,86 @@
     <title>HTML Academy: Кэт энерджи</title>
   </head>
   <body>
-
-    <p>Репозиторий создан для обучения на профессиональном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/adaptive">HTML и CSS, уровень 2</a>».</p>
-
+    <header class="header">
+      <a class="header__logo">
+      <img class="header__logo-image" src="img/logo.svg" width="140" height="72" alt="Логотип Cat Energy">
+      </a>
+      <nav class="main-navigation">
+        <button class="main-navigation__toggle" type="button">
+        <span class="visually-hidden">Открыть меню</span>
+        </button>
+        <ul class="navigation-list">
+          <li class="navigation-list__item navigation-list__item--active"><a href="index.html">Главная</a></li>
+          <li class="navigation-list__item"><a href="catalog.html">Каталог продукции</a></li>
+          <li class="navigation-list__item"><a href="form.html">Выбор программы</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main class="container-index">
+      <h1 class="visually-hidden"> Магазин спортивного питания для котов - Cat Energy! </h1>
+      <section class="slogan">
+        <h2 class="slogan__headline"> Функциональное питание для котов </h2>
+        <p class="slogan__descr"> Занялся собой? Займись котом! </p>
+        <img class="slogan__image" src="emptyimg.png" alt="Питание для котов со вкусом курицы!">
+        <a class="slogan__link button" href="form.html" >Подобрать программу</a>
+      </section>
+      <section class="programs">
+        <h2 class="visually-hidden">Выбор программы</h2>
+        <ul class="programs__list">
+          <li class="programs__list programs__list--slim">
+            <h3 class="programs__headline"> Похудение </h3>
+            <p class="programs__descr"> Ваш кот весит больше собаки и почти утратил способность лазить по деревьям? Пора на диету! Cat Energy Slim поможет Вашему питомцу сбросить лишный вес. </p>
+            <a class="programs__link"> Каталог SLIM </a>
+          </li>
+          <li class="programs__list programs__list--pro">
+            <h3 class="programs__headline"> Набор массы </h3>
+            <p class="programs__descr"> Заработать авторитет среди дворовых котов и даже собак? Серия Cat Energy Pro поможет Вашему коту нарастить необходимые мышцы! </p>
+            <a class="programs__link"> Каталог PRO </a>
+          </li>
+        </ul>
+      </section>
+      <section class="advantages">
+        <h2 class="visually-hidden"> Достоинства продукта </h2>
+        <span class="advantages__headline"> Как это работает </span>
+        <ol class="advantages__list">
+          <li class="advantages__item advantages__item--vitamins advantages__item--first">
+            Функциональное питание содержит только полезные питательные вещества.
+          </li>
+          <li class="advantages__item advantages__item--powder advantages__item--second">
+            Выпускается в виде порошка, который нужно лишь залить кипятком и готово.
+          </li>
+          <li class="advantages__item advantages__item--cutlery advantages__item--third">
+            Замените один-два приема обычной еды на наше функциональное питание.
+          </li>
+          <li class="advantages__item advantages__item--clock advantages__item--fourth">
+            Уже через месяц наслаждайтесь изменениями к лучшему вашего питомца!
+          </li>
+        </ol>
+      </section>
+    </main>
+    <footer class="footer">
+      <p class="footer__name">CAT Energy</p>
+      <ul class="footer__socials-list">
+        <li class="footer__socials-item">
+          <a class="footer__social-link" href="https://vk.com/htmlacademy">
+          <span class="visually-hidden">вконтакте</span>
+          </a>
+        </li>
+        <li class="footer__socials-item">
+          <a class="footer__social-link" href="https://www.youtube.com/channel/UChUxTMjJGo-JDRY8pNTGL2g">
+          <span class="visually-hidden">инстаграмм</span>
+          </a>
+        </li>
+        <li class="footer__socials-item">
+          <a class="footer__social-link" href="https://ru-ru.facebook.com/htmlacademy/">
+          <span class="visually-hidden">фэйсбук</span>
+          </a>
+        </li>
+      </ul>
+      <b class="footer__academy-tittle">HTML Academy</b>
+      <a class="footer__academy-link" href="https://htmlacademy.ru/intensive/adaptive">
+      <span class="visually-hidden">курсы</span>
+      </a>
+    </footer>
   </body>
 </html>
