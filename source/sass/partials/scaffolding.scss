@@ -1,28 +1,27 @@
 @font-face {
-    font-family: "Oswald";
-    font-style: normal;
-    src: url("../../fonts/oswaldmedium.woff") format("woff"), url("../../fonts/oswaldmedium.woff2") format("woff2");
+  font-family: "Oswald";
+  font-style: normal;
+  src: url("../../fonts/oswaldmedium.woff") format("woff"), url("../../fonts/oswaldmedium.woff2") format("woff2");
 }
 
 @font-face {
-    font-family: "Oswald";
-    font-style: normal;
-    src: url("../../fonts/oswaldregular.woff") format("woff"), url("../../fonts/oswaldregular.woff2") format("woff2");
+  font-family: "Oswald";
+  font-style: normal;
+  src: url("../../fonts/oswaldregular.woff") format("woff"), url("../../fonts/oswaldregular.woff2") format("woff2");
 }
 
 body {
-    min-width: 320px;
-    margin: 0;
-    padding: 0;
-    font-size: 14px;
-    line-height: 18px;
-    font-family: "Oswald", "Arial", sans-serif;
-    font-style: normal;
-    font-weight: 400;
-  }
-  
-  img {
-    max-width: 100%;
-    height: auto;
-  }
-  
+  min-width: 320px;
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  line-height: 18px;
+  font-family: "Oswald", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
