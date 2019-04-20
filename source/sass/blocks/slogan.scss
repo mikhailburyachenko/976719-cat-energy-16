@@ -1,0 +1,27 @@
+.slogan__background {
+  background-color: $primary-color;
+  color: #ffffff;
+  background-image: url("../img/index-background-mobile@1x.jpg");
+  background-repeat: no-repeat;
+  min-height: 300px;
+}
+
+.slogan__headlinefont {
+  font-size: 36px;
+  line-height: 36px;
+}
+
+.slogan__contentfont {
+  font-size: 14px;
+  line-height: 14px;
+  text-transform: uppercase;
+}
+
+.slogan__link {
+  background-color: $primary-color;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: uppercase;
+}
