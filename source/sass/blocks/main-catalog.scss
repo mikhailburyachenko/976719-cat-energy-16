@@ -1,0 +1,25 @@
+.main-catalog__tablefont {
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.main-catalog__itemfont {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.main-catalog__button {
+  background-color: $primary-color;
+  color: #ffffff;
+}
+
+.main-catalog__button--showall {
+  background-color: $secondary-color;
+  color: #000000;
+}
+
+.main-catalog__list {
+  list-style: none;
+}

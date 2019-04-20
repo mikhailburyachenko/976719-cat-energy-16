@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Кэт энерджи</title>
+    <link href="css/style.css" rel="stylesheet">
   </head>
   <body>
     <header class="header">
@@ -13,39 +14,41 @@
         <button class="main-navigation__toggle" type="button">
         <span class="visually-hidden">Открыть меню</span>
         </button>
-        <ul class="navigation-list">
-          <li class="navigation-list__item navigation-list__item--active"><a href="index.html">Главная</a></li>
-          <li class="navigation-list__item"><a href="catalog.html">Каталог продукции</a></li>
-          <li class="navigation-list__item"><a href="form.html">Выбор программы</a></li>
+        <ul class="main-navigation__list">
+          <li class="main-navigation__item main-navigation__item--active"><a href="index.html">Главная</a></li>
+          <li class="main-navigation__item"><a href="catalog.html">Каталог продукции</a></li>
+          <li class="main-navigation__item"><a href="form.html">Выбор программы</a></li>
         </ul>
       </nav>
     </header>
     <main class="container-index">
       <h1 class="visually-hidden"> Магазин спортивного питания для котов - Cat Energy! </h1>
       <section class="slogan">
-        <h2 class="slogan__headline"> Функциональное питание для котов </h2>
-        <p class="slogan__descr"> Занялся собой? Займись котом! </p>
-        <img class="slogan__image" src="emptyimg.png" alt="Питание для котов со вкусом курицы!">
-        <a class="slogan__link button" href="form.html" >Подобрать программу</a>
+      <div class="slogan__background">
+        <h2 class="slogan__headline slogan__headlinefont"> Функциональное питание для котов </h2>
+        <p class="slogan__descr slogan__contentfont"> Занялся собой? Займись котом! </p>
+      </div>
+      <img class="slogan__image" src="emptyimg.png" alt="Питание для котов со вкусом курицы!">
+      <a class="slogan__link" href="form.html" >Подобрать программу</a>
       </section>
       <section class="programs">
         <h2 class="visually-hidden">Выбор программы</h2>
         <ul class="programs__list">
           <li class="programs__list programs__list--slim">
-            <h3 class="programs__headline"> Похудение </h3>
+            <h3 class="programs__headline programs-headlinefont"> Похудение </h3>
             <p class="programs__descr"> Ваш кот весит больше собаки и почти утратил способность лазить по деревьям? Пора на диету! Cat Energy Slim поможет Вашему питомцу сбросить лишный вес. </p>
-            <a class="programs__link"> Каталог SLIM </a>
+            <a class="programs__link programs__reffont"> Каталог SLIM </a>
           </li>
           <li class="programs__list programs__list--pro">
-            <h3 class="programs__headline"> Набор массы </h3>
+            <h3 class="programs__headline programs-headlinefont"> Набор массы </h3>
             <p class="programs__descr"> Заработать авторитет среди дворовых котов и даже собак? Серия Cat Energy Pro поможет Вашему коту нарастить необходимые мышцы! </p>
-            <a class="programs__link"> Каталог PRO </a>
+            <a class="programs__link programs__reffont"> Каталог PRO </a>
           </li>
         </ul>
       </section>
       <section class="advantages">
         <h2 class="visually-hidden"> Достоинства продукта </h2>
-        <span class="advantages__headline"> Как это работает </span>
+        <span class="advantages__headline advantages__headlinefont"> Как это работает </span>
         <ol class="advantages__list">
           <li class="advantages__item advantages__item--vitamins advantages__item--first">
             Функциональное питание содержит только полезные питательные вещества.
