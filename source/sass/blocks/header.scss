@@ -1,1 +1,44 @@
-/* Блок шапки */
+.header {
+  display: flex;
+  flex-direction: column;
+  width: 320px;
+  position: relative;
+  margin: 0 auto;
+  min-height: 65px;
+}
+
+.header__logo {
+  position: absolute;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, 0%);
+}
+
+
+@media (min-width: $tablet-width) {
+  .header {
+    flex-direction: row;
+    width: 768px;
+    min-height: 80px;
+  }
+
+  .header__logo {
+    left: 30px;
+    top: 25px;
+    transform: translate(0%, 0%);
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .header {
+    flex-direction: row;
+    width: 1440px;
+    min-height: 120px;
+  }
+
+  .header__logo {
+    left: 110px;
+    top: 55px;
+    transform: translate(0%, 0%);
+  }
+}

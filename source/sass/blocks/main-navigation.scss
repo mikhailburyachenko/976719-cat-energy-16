@@ -1,3 +1,8 @@
+.main-navigation {
+  margin: 0 auto;
+  width: 280px;
+}
+
 .main-navigation a {
   text-decoration: none;
   color: #000000;
@@ -12,4 +17,28 @@
 
 .main-navigation__list {
   list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+@media (min-width: $tablet-width) {
+  .main-navigation {
+    width: 280px;
+  }
+
+  .main-navigation__list {
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .main-navigation__toggle {
+    display: none;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .main-navigation__list {
+    width: 570px;
+  }
 }
