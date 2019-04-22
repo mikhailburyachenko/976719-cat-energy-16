@@ -53,12 +53,12 @@
 
 @media (min-width: $tablet-width) {
   .slogan {
-  width: 768px;
-  margin: 0 auto;
+    width: 768px;
+    margin: 0 auto;
   }
 
   .slogan__wrapper {
-    margin-left: 90px;
+    margin-left: 120px;
   }
 
   .slogan__background {
@@ -85,11 +85,11 @@
   .slogan {
     width: 1440px;
     margin: 0 auto;
-    }
+  }
 
-    .slogan__wrapper {
-      margin-left: 80px;
-    }
+  .slogan__wrapper {
+    margin-left: 190px;
+  }
 
   .slogan__image {
     position: absolute;
