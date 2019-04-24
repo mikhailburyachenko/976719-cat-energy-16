@@ -2,6 +2,32 @@
   background-color: $secondary-color;
 }
 
+.footer__wrapper {
+  width: 320px;
+  margin: 0 auto;
+}
+
+.footer__name {
+  text-align: center;
+}
+
 .footer__socials-list {
   list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+@media (min-width: $tablet-width) {
+  .footer__wrapper {
+    width: 708px;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .footer__wrapper {
+    width: 1220px;
+  }
 }
