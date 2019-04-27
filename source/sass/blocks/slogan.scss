@@ -1,9 +1,13 @@
+.slogan {
+  width: 320px;
+  margin: 0 auto;
+}
+
 .slogan__background {
   background-color: $primary-color;
   color: #ffffff;
   background-image: url("../img/index-background-mobile@1x.jpg");
   background-repeat: no-repeat;
-  min-height: 300px;
 }
 
 .slogan__headlinefont {
@@ -17,11 +21,79 @@
   text-transform: uppercase;
 }
 
-.slogan__link {
+.slogan__headline {
+  text-align: center;
+}
+
+.slogan__descr {
+  text-align: center;
+}
+
+.slogan__link a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 280px;
+  height: 40px;
   background-color: $primary-color;
   color: #ffffff;
   text-decoration: none;
   font-size: 14px;
   line-height: 18px;
   text-transform: uppercase;
+  margin: 0 auto;
+}
+
+.slogan__image {
+  position: absolute;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, 0%);
+}
+
+@media (min-width: $tablet-width) {
+  .slogan {
+    width: 768px;
+    margin: 0 auto;
+  }
+
+  .slogan__wrapper {
+    margin-left: 120px;
+  }
+
+  .slogan__background {
+    background-color: #ffffff;
+    background-image: none;
+    color: #000000;
+  }
+
+  .slogan__headline {
+    text-align: left;
+  }
+
+  .slogan__descr {
+    text-align: left;
+  }
+
+  .slogan__link a {
+    margin: 0;
+  }
+}
+
+
+@media (min-width: $desktop-width) {
+  .slogan {
+    width: 1440px;
+    margin: 0 auto;
+  }
+
+  .slogan__wrapper {
+    margin-left: 190px;
+  }
+
+  .slogan__image {
+    position: absolute;
+    right: 370px;
+    transform: translate(0%, 0%);
+  }
 }

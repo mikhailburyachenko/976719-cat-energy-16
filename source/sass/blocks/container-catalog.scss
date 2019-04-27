@@ -1,0 +1,31 @@
+.container-catalog__wrapper {
+  width: 280px;
+  margin: 0 auto;
+}
+
+.container-catalog__headline-font {
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 60px;
+}
+
+@media (min-width: $tablet-width) {
+  .container-catalog__wrapper {
+    width: 708px;
+    text-align: start;
+    margin: 0 auto;
+  }
+
+  .container-catalog__headline-font {
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 60px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .container-catalog__wrapper {
+    width: 1220px;
+    margin: 0 auto;
+  }
+}

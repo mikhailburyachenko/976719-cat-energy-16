@@ -1,6 +1,15 @@
+.programs {
+  width: 280px;
+  margin: 0 auto;
+}
+
 .programs__list {
-  background-color: $secondary-color;
   list-style: none;
+  padding: 0;
+}
+
+.programs__item {
+  background-color: $secondary-color;
 }
 
 .programs__headlinefont {
@@ -11,4 +20,36 @@
 .programs__reffont {
   font-size: 16px;
   line-height: 16px;
+}
+
+@media (min-width: $tablet-width) {
+  .programs {
+    width: 768px;
+    margin: 0 auto;
+  }
+
+  .programs__list {
+    margin: 0 30px;
+  }
+
+  .programs__item {
+    width: 708px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .programs {
+    width: 1440px;
+    margin: 0 auto;
+  }
+
+  .programs__list {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 110px;
+  }
+
+  .programs__item {
+    width: 570px;
+  }
 }
