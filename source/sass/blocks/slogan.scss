@@ -11,11 +11,14 @@
 }
 
 .slogan__headlinefont {
+  font-family: "Oswald", sans-serif;
   font-size: 36px;
   line-height: 36px;
+  font-weight: 400;
 }
 
 .slogan__contentfont {
+  font-family: "Oswald", sans-serif;
   font-size: 14px;
   line-height: 14px;
   text-transform: uppercase;
@@ -23,10 +26,19 @@
 
 .slogan__headline {
   text-align: center;
+  margin-top: 0;
+  padding-top: 30px;
+  margin-bottom: 25px;
 }
 
 .slogan__descr {
   text-align: center;
+  padding-bottom: 165px;
+  margin: 0;
+}
+
+.slogan__link {
+  position: relative;
 }
 
 .slogan__link a {
@@ -41,7 +53,10 @@
   font-size: 14px;
   line-height: 18px;
   text-transform: uppercase;
-  margin: 0 auto;
+  margin-top: 135px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Oswald", sans-serif;
 }
 
 .slogan__image {
@@ -49,6 +64,7 @@
   left: 50%;
   margin-right: -50%;
   transform: translate(-50%, 0%);
+  top: -270px;
 }
 
 @media (min-width: $tablet-width) {
@@ -57,8 +73,20 @@
     margin: 0 auto;
   }
 
+  .slogan__headlinefont {
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 60px;
+  }
+
+  .slogan__contentfont {
+    font-size: 20px;
+    line-height: 20px;
+  }
+
   .slogan__wrapper {
     margin-left: 120px;
+    margin-bottom: 530px;
   }
 
   .slogan__background {
@@ -69,14 +97,30 @@
 
   .slogan__headline {
     text-align: left;
+    margin-top: 25px;
+    margin-bottom: 40px;
   }
 
   .slogan__descr {
     text-align: left;
+    padding-bottom: 45px;
+  }
+
+  .slogan__image {
+    z-index: 1;
+    top: 270px;
+  }
+
+  .slogan__link {
+    z-index: 2;
   }
 
   .slogan__link a {
     margin: 0;
+    width: 245px;
+    height: 55px;
+    font-size: 20px;
+    line-height: 20px;
   }
 }
 
@@ -89,11 +133,20 @@
 
   .slogan__wrapper {
     margin-left: 190px;
+    margin-bottom: 270px;
   }
 
   .slogan__image {
-    position: absolute;
-    right: 370px;
     transform: translate(0%, 0%);
+    top: -110px;
+    left: 500px;
+  }
+
+  .slogan__headline {
+    margin-top: 70px;
+  }
+
+  .slogan__descr {
+    margin-bottom: 7px;
   }
 }
